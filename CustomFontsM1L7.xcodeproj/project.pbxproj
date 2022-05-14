@@ -11,6 +11,7 @@
 		75B70EAB2829F36F0059B026 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B70EAA2829F36F0059B026 /* ContentView.swift */; };
 		75B70EAD2829F36F0059B026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B70EAC2829F36F0059B026 /* Assets.xcassets */; };
 		75B70EB02829F36F0059B026 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B70EAF2829F36F0059B026 /* Preview Assets.xcassets */; };
+		75B70EBA2829F4D00059B026 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75B70EB92829F4D00059B026 /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,11 @@
 		75B70EAA2829F36F0059B026 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75B70EAC2829F36F0059B026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B70EAF2829F36F0059B026 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75B70EB62829F37F0059B026 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		75B70EB92829F4D00059B026 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		75B70EBB2829F5680059B026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		75B70EBD2829F6230059B026 /* fontsLocation.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fontsLocation.jpeg; sourceTree = "<group>"; };
+		75CABFE028303A87006FD124 /* fontNamesListed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fontNamesListed.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,8 @@
 		75B70E9C2829F36F0059B026 = {
 			isa = PBXGroup;
 			children = (
+				75B70EB62829F37F0059B026 /* README.md */,
+				75B70EBC2829F6130059B026 /* img */,
 				75B70EA72829F36F0059B026 /* CustomFontsM1L7 */,
 				75B70EA62829F36F0059B026 /* Products */,
 			);
@@ -51,6 +59,8 @@
 		75B70EA72829F36F0059B026 /* CustomFontsM1L7 */ = {
 			isa = PBXGroup;
 			children = (
+				75B70EBB2829F5680059B026 /* Info.plist */,
+				75B70EB72829F48E0059B026 /* Font */,
 				75B70EA82829F36F0059B026 /* CustomFontsM1L7App.swift */,
 				75B70EAA2829F36F0059B026 /* ContentView.swift */,
 				75B70EAC2829F36F0059B026 /* Assets.xcassets */,
@@ -65,6 +75,23 @@
 				75B70EAF2829F36F0059B026 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75B70EB72829F48E0059B026 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				75B70EB92829F4D00059B026 /* Roboto-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		75B70EBC2829F6130059B026 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				75CABFE028303A87006FD124 /* fontNamesListed.jpeg */,
+				75B70EBD2829F6230059B026 /* fontsLocation.jpeg */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B70EBA2829F4D00059B026 /* Roboto-Regular.ttf in Resources */,
 				75B70EB02829F36F0059B026 /* Preview Assets.xcassets in Resources */,
 				75B70EAD2829F36F0059B026 /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +300,7 @@
 				DEVELOPMENT_TEAM = 6DR6N9843T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontsM1L7/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +330,7 @@
 				DEVELOPMENT_TEAM = 6DR6N9843T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontsM1L7/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
